@@ -20,7 +20,7 @@ def main():
     elif opcio == "3":
         print(transform.to_capitalize(string))
     else:
-        print("opció no reconegudda")
+        print("opció no reconeguda")
 
 
 if __name__ == '__main__':
