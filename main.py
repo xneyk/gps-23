@@ -3,7 +3,7 @@ import transform
 
 
 def main():
-    """ core del la prova"""
+    """ core del la provA"""
     string = input("Introdueix un string:")
 
     print("Quina transformació vols?")
