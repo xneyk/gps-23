@@ -24,7 +24,11 @@ jobs:
 
       - name: Static code analysis (pylint)
         run: |
-          pylint main.py test.py
+          pylint main.py transform.py
+
+      -name: Running pytest
+        run: |
+          pytest test.py
 
       - name: Run tests with coverage
         run: |
