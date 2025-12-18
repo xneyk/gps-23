@@ -1,7 +1,7 @@
 name: GPS Python Continous Integration
 
 on:
-  pull_request:
+  push:
     branches: ["main", "master"]
 
 jobs:
