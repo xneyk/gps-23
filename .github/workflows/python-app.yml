@@ -26,7 +26,7 @@ jobs:
         run: |
           pylint main.py transform.py
 
-      -name: Running pytest
+      - name: Running pytest
         run: |
           pytest test.py
 
